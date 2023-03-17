@@ -53,6 +53,7 @@ def test_bst_search_empty():
                                                 (45, {'id': 45}),
                                                 (60, {'id': 60}),
                                                 (444, None),
+                                                (1, None),
                                                 ])
 def test_bst_search(bst_full, post_id, post_data):
     """Ищем данные по разным айдишникам."""
